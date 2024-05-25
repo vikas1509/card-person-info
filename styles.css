@@ -1,11 +1,38 @@
 
 .main{
+display: flex;
+flex-direction: column;
+width: 26%;
 
-    display: flex;
-    flex-wrap: wrap;
+height: 80vh;
+font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+border:.1px solid  rgba(218, 212, 212, 0.9) ;
+color: rgba(0, 0, 0, 0.9);
+font-size: 16px;
+line-height: 24px;
+box-shadow: 3px 3px 5px rgba(218, 212, 212, 0.9);
+margin: 35px 5px 3px 15px;
+background-color: rgb(239, 239, 239);
+padding: 10px;
+
 }
-.nameposition{
-    background-color: #abe1e1;
+.name{
+    color: white;
+    padding: 8px;
+    
+}
+.position{
+color: white;
+text-align: center;
+padding: 6px;
+    
+}
+.heading{
+
+    color: white;
+    background-color: rgb(41, 41, 110);
 }
 .exp{
     display: flex;
@@ -14,46 +41,64 @@
 }
 .name{
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight:700;
 }
-.position{
-    text-align: center;
-}
+
+
+
+
 .cart{
     display: flex;
     gap: 16px;
     
-    height: 60vh;
+
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
-    border:.1px solid  rgba(218, 212, 212, 0.9) ;
+    
     color: rgba(0, 0, 0, 0.9);
     font-size: 16px;
     line-height: 24px;
+   
     
-    box-shadow: 3px 3px 5px rgba(218, 212, 212, 0.9);
-    margin: 35px 5px 3px 15px;
     
     padding: 10px;
     
-    width: 26%;
+    
     
    
 }
+.psdiv{
+    margin: 10px 0px;
+}
+.exp-info{
+    margin: 10px 0px;
+}
 .key{
-    background-color: #abe1e1;
+    
 padding: 1px 3px 1px 3px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px;
+font-weight: 600;
 }
 
 .left{
     display: flex;
+    flex-direction: column;
+   
     justify-content: center;
     align-items: center;
-    background-color: #abe1e1;
+    justify-content: space-between;
     padding: 8px;
     width: 15%;
+    
+}
+.resume{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
 }
 .right{
 
@@ -64,6 +109,7 @@ padding: 1px 3px 1px 3px;
     
 
 width: 74%;
+
 }
 
 
@@ -91,11 +137,15 @@ width: 74%;
 
 .btn{
     border: none;
+    border-radius: 2px;
+  background-color: rgb(41, 41, 110);
+  color: white;
+  padding: 2px 6px;
+  font-weight: 400;
+font-style:normal;  
+font-family: Arial, Helvetica, sans-serif;
 }
-.position{
-   
-    color: gray;
-}
+
 .number button{
     outline: blue;
     background-color: white;
