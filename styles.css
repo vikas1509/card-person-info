@@ -1,0 +1,190 @@
+
+.main{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.exp{
+    display: flex;
+    gap: 5px;
+    color:#646767;
+}
+.name{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight:700;
+}
+.position{
+    text-align: center;
+}
+.cart{
+    display: flex;
+    gap: 16px;
+    
+    height: 60vh;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    border:.1px solid  rgba(218, 212, 212, 0.9) ;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 16px;
+    line-height: 24px;
+    
+    box-shadow: 3px 3px 5px rgba(218, 212, 212, 0.9);
+    margin: 35px 5px 3px 15px;
+    
+    padding: 10px;
+    
+    width: 26%;
+    
+   
+}
+.key{
+    background-color: #abe1e1;
+padding: 1px 3px 1px 3px;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #abe1e1;
+    padding: 8px;
+    width: 15%;
+}
+.right{
+
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+
+width: 74%;
+}
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 4px;
+    width: 62vw;
+}
+.value{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9em;
+    font-weight: 600;
+}
+.div1{
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+
+
+}
+
+
+.btn{
+    border: none;
+}
+.position{
+   
+    color: gray;
+}
+.number button{
+    outline: blue;
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 4px;
+    padding: 4px 9px 4px 9px;
+}
+.profile-section{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    height: 100%;
+    gap: 12px;
+
+}
+.profile-picture img{
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+}
+/* .call{
+    border: 1px solid gray;
+    border-radius: 2px;
+    text-align: center;
+color: gray;
+padding: 4px 12px 4px 12px; 
+} */
+.varified{
+    color: gray;
+
+}
+.call img{
+    height: 11px;
+    width: 11px;
+    color: gray;
+   
+}
+
+
+@media (max-width: 400px) {
+    .cart {
+        width: 90%;
+        height: 58vh;
+    }
+    .left {
+        width: 20%;
+    }
+    .right {
+        width: 70%;
+    }
+}
+
+/* Media query for small to medium screens */
+@media (min-width: 401px) and (max-width: 770px) {
+    .cart {
+        width: 75%;
+        height: 62vh;
+    }
+    .left {
+        width: 20%;
+    }
+    .right {
+        width: 75%;
+    }
+}
+
+/* Media query for medium screens */
+@media (min-width: 771px) and (max-width: 900px) {
+    .cart {
+        width: 48%;
+        height: 60vh;
+    }
+    .left {
+        width: 20%;
+    }
+    .right {
+        width: 75%;
+    }
+}
+
+/* Media query for large screens */
+@media (min-width: 901px) and (max-width: 1300px) {
+    .cart {
+        width: 37%;
+        height: 62vh;
+    }
+    .left {
+        width: 13%;
+    }
+    .right {
+        width: 75%;
+    }
+}
