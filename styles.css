@@ -4,6 +4,9 @@
     display: flex;
     flex-wrap: wrap;
 }
+.nameposition{
+    background-color: #abe1e1;
+}
 .exp{
     display: flex;
     gap: 5px;
